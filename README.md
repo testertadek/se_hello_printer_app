@@ -31,6 +31,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # albo:
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
+  # mozna za pomoca make run  
 
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
@@ -38,6 +39,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
+  mozna tez szybciej za pomoca make test
 
 - Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
