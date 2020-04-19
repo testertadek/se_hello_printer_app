@@ -3,5 +3,5 @@ install:
   - make deps
 script:
   - make test
-sript:
+script:
   - make lint
