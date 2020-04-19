@@ -10,6 +10,9 @@ lint:
 test:
 	PYTHONPATH=. py.test --verbose -s
 
+test_smoke:
+	curl -s =o /dev/null =w "%{http_code}" --fail 127.0.0.1:5000
+
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 
