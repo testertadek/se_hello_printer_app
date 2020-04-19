@@ -14,6 +14,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
 
+
+  #zamiast pip install mozna uzyc komendy make deps
   # zobacz
   $ pip list
   ```
@@ -47,7 +49,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
