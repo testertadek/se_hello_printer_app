@@ -89,4 +89,5 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ systemctl start docker
   ```
 #monitoring aplikacji na stronie statuscake.com
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=Pz7apoGYlj&Days=1&Design=1" /></a>
 [![Build Status](https://travis-ci.org/testertadek/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/testertadek/se_hello_printer_app)
